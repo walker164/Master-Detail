@@ -213,6 +213,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Chuck Konkol";
 				TargetAttributes = {
+					12EB590B1802485400E61D0B = {
+						DevelopmentTeam = LAK6SGQ7Q5;
+					};
 					12EB592F1802485400E61D0B = {
 						TestTargetID = 12EB590B1802485400E61D0B;
 					};
@@ -393,11 +396,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Master-Detail/Master-Detail-Prefix.pch";
 				INFOPLIST_FILE = "Master-Detail/Master-Detail-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -408,11 +414,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Master-Detail/Master-Detail-Prefix.pch";
 				INFOPLIST_FILE = "Master-Detail/Master-Detail-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = app;
 			};
@@ -479,6 +488,7 @@
 				12EB59431802485400E61D0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		12EB59441802485400E61D0B /* Build configuration list for PBXNativeTarget "Master-DetailTests" */ = {
 			isa = XCConfigurationList;
@@ -487,6 +497,7 @@
 				12EB59461802485400E61D0B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
